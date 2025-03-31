@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use client";
 
+=======
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 import { Button } from "@/components/ui/button";
@@ -15,7 +18,11 @@ import {
 import { Menu, MoveRight, X } from "lucide-react";
 import { useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link, useNavigate } from "react-router";
+=======
+import { Link } from "react-router";
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
 import { Link } from "react-router";
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
@@ -139,6 +146,10 @@ function Header1() {
                         <Login/>
                     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                </div>
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
                 </div>
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
@@ -154,7 +165,11 @@ function Header1() {
                                         {item.href ? (
                                             <Link
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 to={"/"}
+=======
+                                                to={item.href}
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
                                                 to={item.href}
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
@@ -171,7 +186,11 @@ function Header1() {
                                                 <Link
                                                     key={subItem.title}
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                    to="/"
+=======
+                                                    to={subItem.href}
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
                                                     to={subItem.href}
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
@@ -194,6 +213,10 @@ function Header1() {
     );
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
 =======
 
 >>>>>>> 2041a66bbc6d755fb17ce5cb317864c9e8a9975b
