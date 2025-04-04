@@ -1,19 +1,16 @@
 
+import { Routes, Route } from 'react-router';
 import HomeBeforeLogin from './pages/HomeBeforeLogin';
-import HomeAfterLogin from './pages/HomeAfterLogin';
-import { useAccount } from 'wagmi';
 
 function App() {
 
-  const { isConnected } = useAccount();
   return (
-    <>
-      {isConnected ? (
-        <HomeAfterLogin />
-      ) : (
-        <HomeBeforeLogin />
-      )}
-    </>
+    <Routes>
+      <Route 
+        path="/" 
+        element={<HomeBeforeLogin />} 
+      />
+    </Routes>
   );
 }
 

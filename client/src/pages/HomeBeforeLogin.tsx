@@ -1,27 +1,13 @@
-import Bento from "@/components/bento";
-import Footer from "@/components/footer";
-import  Header1  from "@/components/header"
-import { HeroScrollDemo } from "@/components/scroll";
-import Marquee from "@/components/ui/marquee";
+import Hero from '@/components/Hero';
+import Navigation from '@/components/navigation/Navigation';
 
-function HomeBeforeLogin() {
+const HomeBeforeLogin = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header1 />
-      <main className="flex-grow">
-        {/* Main content goes here */}
-      </main>
-      <div className="mt-8">
-        <HeroScrollDemo/>
-      </div>
-      <div className="mt-16 mb-32">
-        <Bento/>
-      </div>
-      <Marquee/>
-      <Footer />
+    <div className="min-h-screen bg-black">
+      <Navigation />
+      <Hero />
     </div>
   );
-}
+};
 
 export default HomeBeforeLogin;
-
